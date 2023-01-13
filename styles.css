@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+    --mainFontfamily: 'Outfit', sans-serif;
+}
+body{
+    font-family: var(--mainFontfamily);
+    color: var(--DarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section{
+    background-color: var(--LightGray);
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    height: 98vh;
+    max-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0px 21px 0px rgba(105,99,99,0.75);
+    -webkit-box-shadow: 1px 0px 21px 0px rgba(105,99,99,0.75);
+    -moz-box-shadow: 1px 0px 21px 0px rgba(105,99,99,0.75);
+    
+}
+.qr-card{
+    width: 80%;
+    max-width: 320px;
+    background-color: var(--White);
+    border-radius: 10px;
+
+
+}
+.image-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-card img{
+    width: 90%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.qr-description{
+    width: 90%;
+    margin: 20px 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.qr-description p {
+    font-size: 15px;
+}
