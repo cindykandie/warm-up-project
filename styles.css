@@ -13,6 +13,7 @@
 }
 body{
     font-family: var(--mainFontfamily);
+    background-color: rgb(233, 233, 233);
     color: var(--DarkBlue);
     display: flex;
     align-items: center;
